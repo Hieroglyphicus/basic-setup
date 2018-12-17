@@ -8,3 +8,4 @@ Web application based on PHP, MySQL, and Javascript/AJAX, visually designed with
 2) Login (Signin)
 3) Logout (Signout)
 4) Remember me
+5) Users and Remember Me database creation
