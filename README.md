@@ -1,6 +1,6 @@
 # HIEROGLYPHICUS OPEN ANCEINT EGYPTIAN DICTIONARY PROJECT
 
-Web application based on PHP, MySQL, and Javascript, also using HTML, CSS, Javascript and AJAX.
+Web application based on PHP, MySQL, and Javascript, also using HTML, CSS, and AJAX.
 
 ##  Basic setup
 
