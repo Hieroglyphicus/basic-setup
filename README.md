@@ -6,4 +6,5 @@ Web application based on PHP, MySQL, and Javascript/AJAX, visually designed with
 
 1) Registration (Signup)
 2) Login (Signin)
-3) Remember me
+3) Logout (Signout)
+4) Remember me
