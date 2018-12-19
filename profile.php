@@ -1,6 +1,5 @@
 <?php 
     include_once "./includes/header.php";
-    include_once "./includes/fetch_user_data.script.php";
 ?>
 
     <!-- MAIN PAGE CONTENT -->
@@ -20,25 +19,25 @@
                             <div class="user-data-unit">
                                 <h5>Name:</h5>
                                 <p>
-                                    <?php echo $userName; ?>
+                                    <?php echo $_SESSION["userName"]; ?>
                                 </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>Surname:</h5>
                                 <p>
-                                    <?php echo $userSurname; ?>
+                                    <?php echo $_SESSION["userSurname"]; ?>
                                 </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>Country:</h5>
                                 <p>
-                                    <?php echo $userCountry; ?>
+                                    <?php echo $_SESSION["userCountry"]; ?>
                                 </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>E-mail:</h5>
                                 <p>
-                                    <?php echo $userEmail; ?>
+                                    <?php echo $_SESSION["userEmail"]; ?>
                                 </p>
                             </div>
                             <div class="user-data-unit">
