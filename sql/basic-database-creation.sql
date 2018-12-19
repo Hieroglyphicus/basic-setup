@@ -7,6 +7,7 @@ CREATE TABLE hieroglyphicus_db.hieroglyphicus_users (
     user_role ENUM("User","Moderator","Admin") CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL DEFAULT "User", 
     country VARCHAR(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL, 
     user_bio VARCHAR(2048) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+    user_picture VARCHAR(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
     PRIMARY KEY (user_id)
 ) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_bin;
 
