@@ -1,5 +1,6 @@
 <?php 
     include_once "./includes/header.php";
+    include_once "./includes/fetch_user_data.script.php";
 ?>
 
     <!-- MAIN PAGE CONTENT -->
@@ -18,19 +19,27 @@
                         <div class="user-data-container">
                             <div class="user-data-unit">
                                 <h5>Name:</h5>
-                                <p>Boris</p>
+                                <p>
+                                    <?php echo $userName; ?>
+                                </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>Surname:</h5>
-                                <p>Jegorović</p>
+                                <p>
+                                    <?php echo $userSurname; ?>
+                                </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>Country:</h5>
-                                <p>Serbia</p>
+                                <p>
+                                    <?php echo $userCountry; ?>
+                                </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>E-mail:</h5>
-                                <p>boris.jegorovic@ymail.com</p>
+                                <p>
+                                    <?php echo $userEmail; ?>
+                                </p>
                             </div>
                             <div class="user-data-unit">
                                 <h5>Password</h5>
