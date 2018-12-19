@@ -16,6 +16,10 @@ if (empty($_SESSION['userid']) && !empty($_COOKIE['rememberMe'])) {
             if (hash_equals($row['remember_hashedValidator'], hash('sha256', $validator))) {
                 $_SESSION['userid'] = $row['remember_userid'];
                 $_SESSION['userrole'] = $row['remember_role'];
+                $_SESSION["userName"] = $row["first_name"];
+                $_SESSION["userSurname"] = $row["last_name"];
+                $_SESSION["userCountry"] = $row["country"];
+                $_SESSION["userEmail"] = $row["e_mail"];
                 // New cookie issuing
                 $validator = base64_encode(bin2hex(random_bytes(20)));
                 $hashedValidator = hash('sha256', $validator);
