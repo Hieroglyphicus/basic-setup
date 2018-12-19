@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="18" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 3737 686">
+  <defs>
+    <style>
+      .fil3{fill:#dee2e6}
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <rect id="unchecked" width="686" height="686" fill="#dee2e6" rx="172" ry="172"/>
+    <rect width="686" height="686" x="763" fill="#a38f75" rx="172" ry="172"/>
+    <path fill="#fff" d="M981 301l60 60 190-190c19-19 49-19 68 0l23 23c19 19 19 49 0 68l-190 190-56 56c-19 19-49 19-68 0l-56-56-60-60c-19-19-19-49 0-68l23-23c19-19 49-19 68 0z"/>
+    <circle cx="1868" cy="343" r="343" class="fil3"/>
+    <circle cx="2626" cy="343" r="343" class="fil3"/>
+    <circle cx="2626" cy="343" r="191" fill="#a38f75"/>
+    <circle cx="3394" cy="343" r="343" fill="#eaeef2"/>
+  </g>
+</svg>
