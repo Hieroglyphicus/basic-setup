@@ -115,6 +115,10 @@
                             }
                             $_SESSION["userid"] = $row["user_id"];
                             $_SESSION["userrole"] = $row["user_role"];
+                            $_SESSION["userName"] = $row["first_name"];
+                            $_SESSION["userSurname"] = $row["last_name"];
+                            $_SESSION["userCountry"] = $row["country"];
+                            $_SESSION["userEmail"] = $row["e_mail"];
                             showSuccessMessage();
                             exit();
                         }
