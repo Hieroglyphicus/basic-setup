@@ -46,8 +46,8 @@
                         <label for="">Country:</label>
                         <select id="js-registration-country" name="" >
                             <option value="" disabled selected>Select country</option>
-                            <option value="AFG">Afghanistan</option>
-                            <option value="ALA">Åland Islands</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Åland Islands">Åland Islands</option>
                         </select>
                         <div id="js-country-error-div" class="validation-message-div"></div>
                     </div>
@@ -62,9 +62,6 @@
         </div>
         <script src="./js/registration_scripts.js"></script>
     </main>
-                    
-
-
 
 <?php 
     include_once "./includes/footer.php";
