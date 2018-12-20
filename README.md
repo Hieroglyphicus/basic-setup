@@ -9,4 +9,4 @@ Web application based on PHP, MySQL, and Javascript/AJAX, visually designed with
 3) Logout (Signout)
 4) Remember me
 5) Users and Remember Me database creation
-6)
+6) User contribution counter DB creation.
