@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/reboot.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/hieroglyphicus.js">
     </script>
